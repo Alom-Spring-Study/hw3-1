@@ -5,9 +5,6 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * TODO: 완성된 코드 아닙니다~
- */
 @Entity
 @Getter
 @Setter

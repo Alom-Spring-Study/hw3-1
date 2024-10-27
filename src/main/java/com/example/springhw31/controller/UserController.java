@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * 회원가입 메서드처럼 UserDto를 파라미터로 받아주세요
- */
 @RestController
 @RequiredArgsConstructor
 public class UserController {

@@ -6,11 +6,6 @@ import com.example.springhw31.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
-/**
- * Controller에 반환할 때도 DTO 객체를 반환합니다.
- */
 @Service
 @RequiredArgsConstructor
 public class UserService {
