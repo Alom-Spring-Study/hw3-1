@@ -6,12 +6,13 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 회원가입 메서드처럼 UserDto를 파라미터로 받아주세요
  */
 @RequiredArgsConstructor
-@Controller
+@RestController
 public class UserController {
   private final UserService userService;
 
